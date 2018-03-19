@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script src="js/nui.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		//判断终端并打开相应的页面
+		if((nui.runtime()=='ios'||nui.runtime()=='android'||nui.runtime()=='wx')&&window.screen.width<=1300){
+			window.location='content/index_h5.html';
+		}else{
+			window.location='content/index_pc.html';
+		}
+	</script>
+</html>

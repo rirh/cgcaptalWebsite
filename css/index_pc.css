@@ -51,7 +51,7 @@
 	header .header_sub .header_sub_left .tips_flag {
 		width: 100%;
 		margin-top: 2.853333rem;
-		font-size: 0.8rem;
+		font-size: 0.6rem;
 	}
 	
 	header .header_sub .header_sub_left .tips_flag_english {
@@ -92,8 +92,8 @@
 	}
 	
 	header .header_sub .header_sub_right img {
-		width: 6.96rem;
-		height: 8.626666rem;
+		width: 70%;
+		height: 70%;
 	}
 	
 	section .section_item1 {
@@ -310,7 +310,7 @@
 		background-size: 100% 100%;
 		line-height: 4.906666rem;
 		text-align: center;
-		font-size: 0.186666rem;
+		font-size: 0.286666rem;
 		color: #fff;
 	}
 	
